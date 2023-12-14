@@ -68,7 +68,7 @@ void registrarAsistencia(Estudiante &estudiante, Asistencia asistencia)
     throw invalid_argument("La materia no existe");
 }
 
-// Función princicap
+// Función princical
 int main() {
     try {
         Estudiante estudiante1 = {"Nerea", 20, 9.5, {"Programacion", "Matematicas", "Fisica"}};
