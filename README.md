@@ -2,7 +2,8 @@
 Examen Tema 2
 link: https://github.com/nquinbla/Quintanilla_Nerea_Examen2CPP.git
 Duarante la realización del examen he utilizado GitHub Copilot, GitHub, CLion, Chatgpt y Replit
-En cada rama verás el código tanto en C++ (mainc++) como para C (mainc)
+En cada rama verás el código tanto en C++ (mainc++) como para C (mainc). 
+Te la pelara pero ay pocos comits porque he tenido que hacer otro repositorio
 
 ## [PARTE 1] PREGUNTAS DE ELECCIÓN MÚLTIPLE (20%)
 1. ¿Cuál es la principal diferencia entre la estructura básica del programa en C y C++?
