@@ -29,9 +29,28 @@ b). Permiten la creación de funciones y clases genéricas, es decir, que pueden
      - Con C++ utilizamos string para el nombre en lugar de un array con carácteres.
      - Usamos cout en lugar de printf
 ### Gestión de materias
+ 1.**C++**
+    - Añadimos a la estructura Estudiante una lista o vector de materias en las que está inscrito.
+    - Implementamos funciones para agregar, eliminar y mostrar estas materias.
+  2. **C**
+    - Añadimos a la estructura Estudiante una lista o vector de materias en las que está inscrito.
+    - Implementamos funciones para agregar, eliminar y mostrar estas materias.
+  3. **Comparativa**
+     
 ### Registro de asistencia
+ 1.**C++**
+    - Diseñamos una clase o estructura Asistencia que contenga: fecha, materia y estado (asistió, falta, tardanza).
+    - Integramos esta estructura con Estudiante y desarrolla funciones para registrar y mostrar la asistencia..
+  2. **C**
+    - Diseñamos una clase o estructura Asistencia que contenga: fecha, materia y estado (asistió, falta, tardanza).
+    - Integramos esta estructura con Estudiante y desarrolla funciones para registrar y mostrar la asistencia.
 ### Manejo de excepciones
-
+ 1.**C++**
+    - Implementamos excepciones personalizadas para manejar estos escenarios.
+    - Demuestra su uso con bloques try, catch.
+  2. **C**
+    -  Implementamos excepciones personalizadas para manejar estos escenarios.
+    - Demuestra su uso con bloques try, catch.
 ## [CONCLUSIÓN]
 * ¿Cuál de los dos lenguajes consideras más adecuado para el proyecto del CGEA?
 * ¿Qué recomendaciones harías al equipo de desarrollo del CGEA para la siguiente fase del proyecto?
