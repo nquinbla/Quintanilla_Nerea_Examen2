@@ -71,20 +71,20 @@ void registrarAsistencia(Estudiante &estudiante, Asistencia asistencia)
 // Función princicap
 int main() {
     try {
-        Estudiante estudiante1 = {"Nerea", 20, 9.5, {"Programacion", "Matematicas", "Física"}};
+        Estudiante estudiante1 = {"Nerea", 20, 9.5, {"Programacion", "Matematicas", "Fisica"}};
         mostrarEstudiante(estudiante1);
 
         agregarMateria(estudiante1, "Informatica");
         mostrarEstudiante(estudiante1);
 
-        eliminarMateria(estudiante1, "Matemáticas");
+        eliminarMateria(estudiante1, "Matematicas");
         mostrarEstudiante(estudiante1);
 
-        Asistencia asistencia1 = {"Programación", 10, 2};
+        Asistencia asistencia1 = {"Programacion", 10, 2};
         registrarAsistencia(estudiante1, asistencia1);
 
         // Intentar registrar asistencia de una materia que no existe
-        Asistencia asistencia2 = {"Química", 10, 2};
+        Asistencia asistencia2 = {"Quimica", 10, 2};
         registrarAsistencia(estudiante1, asistencia2);
     } catch (invalid_argument &e) {
         cerr << "Error: " << e.what() << endl;
