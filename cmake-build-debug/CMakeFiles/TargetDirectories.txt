@@ -1,0 +1,3 @@
+C:/Users/nerea/OneDrive/Documentos/GitHub/Quintanilla_Nerea_Examen2/cmake-build-debug/CMakeFiles/c++.dir
+C:/Users/nerea/OneDrive/Documentos/GitHub/Quintanilla_Nerea_Examen2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nerea/OneDrive/Documentos/GitHub/Quintanilla_Nerea_Examen2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
