@@ -1,4 +1,4 @@
-# include <studio.h>
+# include <stdio.h>
 # include <string.h>
 # include <stdlib.h>
 
@@ -51,7 +51,6 @@ void eliminarMateria(struct Estudiante* estudiante, const char* materia) {
         break;
     }
 }
-}
 
 // Estructura asistencia
 struct Asistencia {
@@ -63,7 +62,7 @@ struct Asistencia {
 // Funcion para registrar asisencia de un estudiante
 void registrarAsistencia(struct Estudiante* estudiante, struct Asistencia* asistencia) {
     for (int i = 0; i < estudiante->numMaterias; ++i) {
-        if (strcmp(estudiante->materias[i], asistencia->materia) == 0) {
+        if (strcmp(estudiante->materias[i], (const char *) asistencia->materia) == 0) {
             // Aquí puedes implementar lógica adicional para manejar la asistencia
             printf("Asistencia registrada para la materia %s\n", asistencia->materia);
             return;
@@ -74,7 +73,7 @@ void registrarAsistencia(struct Estudiante* estudiante, struct Asistencia* asist
 
 // Funcion principal
 int main() {
-    struct Estudiante estudiante = {"Nerea", 18, 9.5, {"Matematicas", "Programacion"};"};
+    struct Estudiante estudiante = {"Nerea", 18, 9.5, {"Matematicas", "Programacion"}
     mostrarEstudiante(&estudiante);
 
     agregarMateria(&estudiante, "Fisica");
@@ -83,7 +82,7 @@ int main() {
     eliminarMateria(&estudiante, "Matematicas");
     mostrarEstudiante(&estudiante);
 
-    struct Asistencia asistencia = {"2021-09-01", "Programacion", 1};
+    struct Asistencia asistencia = {"2021-09-01", (int) "Programacion", 1};
     registrarAsistencia(&estudiante, &asistencia);
 
     return 0;
