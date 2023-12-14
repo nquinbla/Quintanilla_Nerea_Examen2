@@ -53,4 +53,6 @@ b). Permiten la creación de funciones y clases genéricas, es decir, que pueden
     - Demuestra su uso con bloques try, catch.
 ## [CONCLUSIÓN]
 * ¿Cuál de los dos lenguajes consideras más adecuado para el proyecto del CGEA?
+  Considero más adecuado el lenguaje C++, ya que este añade nuevas funciones y características que complementan mejor a la hora de hacer nuevos códigos y proyectos. Me resulta más limpio y fácil y menos lioso. 
 * ¿Qué recomendaciones harías al equipo de desarrollo del CGEA para la siguiente fase del proyecto?
+  Crear nuevas estructuras para mapas, o algo relacionado con una cafetería
