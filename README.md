@@ -1,6 +1,7 @@
 # Quintanilla_Nerea_Examen2
 Examen Tema 2
 link: https://github.com/nquinbla/Quintanilla_Nerea_Examen2CPP.git
+Duarante la realización del examen he utilizado GitHub Copilot, GitHub, CLion, Chatgpt y Replit
 
 ## [PARTE 1] PREGUNTAS DE ELECCIÓN MÚLTIPLE (20%)
 1. ¿Cuál es la principal diferencia entre la estructura básica del programa en C y C++?
