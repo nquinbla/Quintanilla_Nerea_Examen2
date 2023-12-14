@@ -50,6 +50,13 @@ b). Permiten la creación de funciones y clases genéricas, es decir, que pueden
   2. **C**
     - Implementamos excepciones personalizadas para manejar estos escenarios.
     - Demuestra su uso con bloques try, catch.
+
+### COMPARATIVAS
+- Declaración e Inicialización de Estructuras: La forma en que se declaran e inicializan las estructuras es diferente en C++ y C.
+- Manejo de Excepciones: En C++, se utiliza un bloque try-catch para manejar excepciones. En C, no hay un mecanismo de manejo de excepciones integrado, por lo que se utilizan mensajes de error en la salida estándar (stderr) para informar sobre problemas.
+- Manejo de Cadenas: En C++, se utilizan objetos de la clase std::string para manejar cadenas de caracteres, mientras que en C, se utilizan arreglos de caracteres (char[]) y funciones de la biblioteca estándar de C, como strcpy y strcmp.
+- Impresión de Mensajes: En C++, se utiliza std::cout para imprimir mensajes en la salida estándar, mientras que en C, se utiliza printf de la biblioteca estándar de C.
+- 
 ## [CONCLUSIÓN]
 * ¿Cuál de los dos lenguajes consideras más adecuado para el proyecto del CGEA?
   Considero más adecuado el lenguaje C++, ya que este añade nuevas funciones y características que complementan mejor a la hora de hacer nuevos códigos y proyectos. Me resulta más limpio y fácil y menos lioso. 
