@@ -49,7 +49,7 @@ b). Permiten la creación de funciones y clases genéricas, es decir, que pueden
     - Implementamos excepciones personalizadas para manejar estos escenarios.
     - Demuestra su uso con bloques try, catch.
   2. **C**
-    -  Implementamos excepciones personalizadas para manejar estos escenarios.
+    - Implementamos excepciones personalizadas para manejar estos escenarios.
     - Demuestra su uso con bloques try, catch.
 ## [CONCLUSIÓN]
 * ¿Cuál de los dos lenguajes consideras más adecuado para el proyecto del CGEA?
